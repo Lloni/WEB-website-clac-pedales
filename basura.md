@@ -40,6 +40,7 @@ Por definir
   - Con buena sintaxis HTML
   - Considerar téminos de búsqueda comunes en Google
   - Buen etiquetado de imágenes y enlaces
+- Con bradcrumbs
 - Considerar aspectos de accesibilidad
 
 #### Colores
@@ -55,23 +56,33 @@ Por definir
   - Crete Round: Textos
   - Raleway : Títulos, highlights
 
-### Secciones propuestas
+### Subpáginas propuestas
 - Home
   Landing que permita conocer el quehacer de la empresa.
   Incluye las secciones:
     - Header (con propuesta de valor de la empresa)
-    - Productos destacados.
+    - Productos destacados (posiblemente con pills). Redirigirán a la página individual de cada producto o servicio.
+      - Fuzz Caleuche
       - M3
-      - Klon
       - Microscreamer
-      - Grat
+      - Tremulus
+      - Modficaciones y reparaciones
+    - Últimas entradas en el blog
     - Footer con: Info de contacto y RRSS, Formulario de contacto
+
+- Noticias
+  Sección tipo blog que incluye entradas clasificadas con las etiquetas:
+    - Blog
+    - Noticias
+    - Tutoriales
 
 - Nosotros
   Incluye:
     - Misión y visión (no necesariamente descrita con esos términos)
     - Breve reseña de la marca
+    - Perfil de los creadores
 
+- FAQ
 
 ### Webs "referenciales"
 - https://dod.com/en-US

@@ -1,0 +1,372 @@
+/* Estilos globales */
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Raleway', serif;
+}
+
+h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 4rem;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.mgn-hor-0 {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.btn {
+  background-image: none;
+  border-radius: 0;
+}
+
+/* Elementos y bloques */
+
+/* NAVBAR */
+
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-inverse {
+  background-color: hsla(0, 0%, 0%, 0.5);
+  background-image: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ddd;
+}
+
+.navbar-brand>img {
+  height: 40px;
+  margin-top: -8px;
+  padding-left: 20px;
+}
+
+
+/* HEADER */
+.page-header {
+  background: url("../img/pedals_live1.jpg") no-repeat center top;
+  background-size: cover;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  border-bottom: none;
+  box-shadow: 0px 50px 45px hsla(0, 0%, 0%, 0.6);
+}
+
+.row-no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.header-content {
+  padding: 10px 10vw;
+  padding-top: 200px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.header-content > h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+  .header-content {
+    margin-top: 0;
+    padding-top: 100px;
+    text-align: center;
+    }
+  .header-content > h1 {
+    font-size: 5rem;
+  }
+}
+
+
+
+/* Productos */
+
+.productos {
+  padding-top: 100px;
+}
+
+.productos > h1 {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.3);
+  padding: 15px;
+}
+
+.producto-content {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.6);
+}
+
+.producto-content > p {
+  display: inline;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  color: #fff;
+  box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.2);
+}
+
+.producto-content > h2 {
+  font-weight: bolder;
+  display: inline;
+  background-color: hsla(0, 0%, 0%, 0.3);
+  color: #fff;
+  box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.2);
+}
+
+.btn-masinfo {
+  color: #fff;
+  background-color: #f9ae5c;
+  margin-top: 5px;
+}
+
+.producto-thumb {
+  height: 500px;
+}
+
+.producto-content {
+  padding: 30px 60px;
+}
+
+.producto-1 {
+  background: url("../img/producto1.jpg") no-repeat center right;
+  background-size: cover;
+  text-align: left;
+}
+
+.producto-2 {
+  background: url("../img/producto2.jpg") no-repeat center left;
+  background-size: cover;
+  text-align: right;
+}
+
+.producto-3 {
+  background: url("../img/producto3.jpg") no-repeat center right;
+  background-size: cover;
+  text-align: left;
+}
+
+.producto-4 {
+  background: url("../img/producto4.jpg") no-repeat center left;
+  background-size: cover;
+  text-align: right;
+}
+
+
+/* NOSOTROS */
+.nosotros {
+  background: url("../img/nosotros.jpg") no-repeat center bottom;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 650px;
+  box-shadow: 0px 50px 45px hsla(0, 0%, 0%, 0.6);
+}
+
+.nosotros-content {
+  padding: 10px 10vw;
+  padding-top: 200px;
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.6);
+}
+
+.nosotros-content > h1 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 767px) {
+  .nosotros-content {
+    margin-top: 0;
+    padding-top: 50px;
+    text-align: center;
+    }
+  .nosotros-content > h1 {
+    font-size: 5rem;
+  }
+}
+
+
+/* FOOTER */
+
+.footer {
+  color: #fff;
+  background-color: #2d2d2d;
+  padding: 10vh 10vw;
+  margin-top: 100px;
+}
+
+.ubicacion a {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* GALERIA DE FOTOS */
+
+
+.featured {
+  width: 700px;
+  height: auto;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 5px 5px hsla(0, 0%, 0%, 0.6);
+}
+
+.gallery {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.thumb {
+  width: 100px;
+  height: auto;
+  margin: 5px;
+  box-shadow: 0px 5px 5px hsla(0, 0%, 0%, 0.6);
+}
+
+/* ESTILOS PÁGINA PRODUCTOS */
+
+
+.product-header {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  border-bottom: none;
+  background-color: #2d2d2d;
+  box-shadow: 0px 50px 45px hsla(0, 0%, 0%, 0.6);
+}
+
+.product-page-content h1 {
+  font-size: 6rem;
+}
+
+
+.product-description {
+  padding-top: 100px
+}
+
+.product-description p {
+  font-size: 2rem;
+}
+
+/* MANDALA */
+
+.mandala-header-img {
+  background: url("../img/mandala/mandala-header-md.jpg") no-repeat center left;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 992px) {
+  .mandala-header-img {
+    background: url("../img/mandala/mandala-header-sm.jpg") no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .product-page-content {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+}
+
+
+/* GRAT */
+
+.grat-header-img {
+  background: url("../img/grat/grat-header-md.jpg") no-repeat center left;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 992px) {
+  .grat-header-img {
+    background: url("../img/grat/grat-header-sm.jpg") no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .product-page-content {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+}
+
+
+/* M3 */
+
+.m3-header-img {
+  background: url("../img/m3/m3-header-md.jpg") no-repeat center left;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 992px) {
+  .m3-header-img {
+    background: url("../img/m3/m3-header-sm.jpg") no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .product-page-content {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+}
+
+
+/* klon */
+
+.klon-header-img {
+  background: url("../img/klon/klon-header-md.jpg") no-repeat center left;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 992px) {
+  .klon-header-img {
+    background: url("../img/klon/klon-header-sm.jpg") no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .product-page-content {
+    margin-top: 0;
+    padding-top: 10px;
+  }
+}
